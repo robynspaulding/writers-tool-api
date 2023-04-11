@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   resources :projects
 
   resources :characters
+
+  resources :worlds
 end
