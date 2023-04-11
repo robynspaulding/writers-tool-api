@@ -13,7 +13,7 @@ Project.create(working_title: "Dawn Hollow Academy, semester 1", status: "in pro
 Character.create(
   project_id: 1,
   name: "Kian Drakou",
-  birthday: "January 12, 2097",
+  birthday: "January 12, 2297",
   age: "17 years old",
   physical_attributes: "A bodybuilder-like, tan skinned man with dark ,blue eyes, a triangular face, a stubby nose and small lips. He has wavy, orange-gold hair dip-dyed half way with shades of baby blue, has numerous piercings, wears clothes that are loose, has a strange cut on his chest, and he has an adolescent beard that is two shades browner than his hair.",
   likes: "Kian's likes the ocean, learning about old weapons and wars, ,and learning the rules and laws of the fairies who live in the Dark Woods.",
@@ -35,8 +35,30 @@ Character.create(
   likes: "Erin likes watching the sun set, driving with the window down",
   dislikes: "Erin hates hard pretzels, walkikg in mud and when her ,friends argue",
   hobbies: "Erins hobbies are writing fan fiction,  reading, taking ,naps, baking (but only cookies)",
-  favorite_food: "Strawberry ice cream and nachos",
+  favorite_food: "Erin loves pizza with olives and summer cherries",
   misc1: "Erin has a little brother who she loves named Oliver who is 7",
   misc2: "Erin's first boyfriend was named Chris, not sure yet if it ,ended well or if he broke her heart...",
   misc3: "Erin's best friend is Gina, they grew up together and fight ,like sisters"
+)
+
+World.create(
+  project_id: 1,
+  name: "Avendar",
+  time_period: "2314",
+  physics: "There are three moons which means that the tides on different parts of the planet are constantly raging and ocean travel is deadly at best. There is a constant wind in Kian's town that has never been adequately explained to him and it means that most people have short hair and wear tight clothes that down whip around.",
+  culture: "They are tribe based and their cities while advances are ruled by an over arching coucil who gained power centuries ago when they discovered some secret way to safely navigate the ocean and bring vital resources to the city. They are mostly benevolent, but don't like outsiders and so it is rare to see a traveler in town - only trades men from further inland who have built relationships over the years with the leaders of Kian's tribe.",
+  misc1: "The sky is usually purple, but during the lunar solstices it becomes a deep blue with purple streaking across",
+  misc2: "The tribe is content and there are often children playing in the common areas while their parents socialize or work on tasks together.",
+  misc3: "People are matched by the council when they turn 18 to their life partner, this is becoming a problem as they will not socialize outside the tribe and more and more children are being born with health problems due to having too much common DNA"
+)
+
+World.create(
+  project_id: 2,
+  name: "Earth - a pocket demension called Elaria",
+  time_period: "2023  - present day",
+  physics: "Same as earth, but at the academy there is magic so some differences there",
+  culture: "the school culture is guarded, the teachers are more interested in watching the students struggle and battle to see who has enough grit to succeed rather that supporting them outright. Those with enough power are either bullies or loners, those in the mid tier are you basic power hungry brown nosers, those at the bottom, we try to stay invisible - too bad we make up the majority of the student body.",
+  misc1: "Somethins is happening to the magic and it seems to be getting weaker by the generation.",
+  misc2: "There is a battle magic class, though for what purpose no has ever told us. Only that it is required - makes a girl wonder what is actually going on in the world beyond Elaira",
+  misc3: "The governing body is supposed to be a democratic republic, but the current president elect has been around for a decade at least and there are no term lengths here, feels sketchy but maybe the people like it this way?"
 )
