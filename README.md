@@ -1,24 +1,36 @@
-# README
+# Writers-tool-api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the begining of what I hope will be a useful tool writers can use to organize their projects, character info, world building notes and research, as well as a space where they can schedule their writing time and develop healthy work/life balance habits.
 
-Things you may want to cover:
+## Run Locally
 
-* Ruby version
+Clone the project
 
-* System dependencies
+```bash
+   git clone https://github.com/robynspaulding/writers-tool-api.git
+  rails db:create db:migrate db:seed
+```
 
-* Configuration
+Go to the project directory
 
-* Database creation
+```bash
+  cd writers-tool-api
+```
 
-* Database initialization
+Install dependencies
 
-* How to run the test suite
+```bash
+  bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Start the server
 
-* Deployment instructions
+```bash
+  rails server
+```
 
-* ...
+## Tech Stack
+
+**Client:** React (Frontend to come)
+
+**Server:** Ruby on Rails version 3.1.1
