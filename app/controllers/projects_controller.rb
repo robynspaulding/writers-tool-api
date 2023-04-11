@@ -26,4 +26,10 @@ class ProjectsController < ApplicationController
     )
     render json: @project.as_json
   end
+
+  def destroy
+    @project = Project.find_by(id: params[:id])
+    @project.destroy
+    render json: {message: "Project successfully destroyed"}
+  end
 end
