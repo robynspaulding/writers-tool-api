@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   resources :characters
 
   resources :worlds
+
+  resources :notes
 end
