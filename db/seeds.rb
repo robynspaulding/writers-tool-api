@@ -62,3 +62,22 @@ World.create(
   misc2: "There is a battle magic class, though for what purpose no has ever told us. Only that it is required - makes a girl wonder what is actually going on in the world beyond Elaira",
   misc3: "The governing body is supposed to be a democratic republic, but the current president elect has been around for a decade at least and there are no term lengths here, feels sketchy but maybe the people like it this way?"
 )
+
+Note.create(
+  project_id: 1,
+  note_title: "duel weild sword research",
+  chapter_title: "n/a",
+  note: "Dual wielding is the technique of using two weapons, one in each hand for training or combat. It is not a common combat practice. Although historical records of dual wielding in war are limited, there are numerous weapon-based martial arts that involve the use of a pair of weapons. The use of a companion weapon is sometimes employed in European martial arts and fencing, such as a parrying dagger. Miyamoto Musashi, a Japanese swordsman and ronin, was said to have conceived of the idea of a particular style of swordsmanship involving the use of two swords.",
+  source_url: "https://en.wikipedia.org/wiki/Dual_wield#:~:text=It%20is%20not%20a%20common,such%20as%20a%20parrying%20dagger."
+)
+
+Note.create(
+  project_id: 2,
+  note_title: "boarding school culture",
+  chapter_title: "Day one at Elaria Magic Academy",
+  note: "Typical characteristics
+  The term boarding school often refers to classic British boarding schools and many boarding schools around the world which are modeled on these.
+  A typical boarding school has several separate residential houses, either within the school grounds or in the surrounding area.
+  A number of senior teaching staff are appointed as housemasters, housemistresses, dorm parents, prefects, or residential advisors, each of whom takes quasi-parental responsibility (in loco parentis) for anywhere from 5 to 50 students resident in their house or dormitory at all times but particularly outside school hours. Each may be assisted in the domestic management of the house by a housekeeper often known in U.K. or Commonwealth countries as matron, and by a house tutor for academic matters, often providing staff of each gender. In the U.S., boarding schools often have a resident family that lives in the dorm, known as dorm parents. They often have janitorial staff for maintenance and housekeeping, but typically do not have tutors associated with an individual dorm. Nevertheless, older students are often less supervised by staff, and a system of monitors or prefects gives limited authority to senior students. Houses readily develop distinctive characters, and a healthy rivalry between houses is often encouraged in sport.",
+  source_url: "https://en.wikipedia.org/wiki/Boarding_school"
+)
