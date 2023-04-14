@@ -1,0 +1,2 @@
+class BetaReader < ApplicationRecord
+end
