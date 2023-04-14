@@ -81,3 +81,21 @@ Note.create(
   A number of senior teaching staff are appointed as housemasters, housemistresses, dorm parents, prefects, or residential advisors, each of whom takes quasi-parental responsibility (in loco parentis) for anywhere from 5 to 50 students resident in their house or dormitory at all times but particularly outside school hours. Each may be assisted in the domestic management of the house by a housekeeper often known in U.K. or Commonwealth countries as matron, and by a house tutor for academic matters, often providing staff of each gender. In the U.S., boarding schools often have a resident family that lives in the dorm, known as dorm parents. They often have janitorial staff for maintenance and housekeeping, but typically do not have tutors associated with an individual dorm. Nevertheless, older students are often less supervised by staff, and a system of monitors or prefects gives limited authority to senior students. Houses readily develop distinctive characters, and a healthy rivalry between houses is often encouraged in sport.",
   source_url: "https://en.wikipedia.org/wiki/Boarding_school"
 )
+
+BetaReader.create(
+  user_id: 1,
+  first_name: "Jon",
+  last_name: "Doe",
+  email: "jd@test.com",
+  feedback_notes: "What is Lorem Ipsum?
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+)
+
+BetaReader.create(
+  user_id: 1,
+  first_name: "Sam",
+  last_name: "Smith",
+  email: "ss@test.com",
+  feedback_notes: "Why do we use Lorem Ipsum?
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+)
