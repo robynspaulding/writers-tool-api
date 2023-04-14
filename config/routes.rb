@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   resources :worlds
 
   resources :notes
+
+  resources :beta_readers
 end
