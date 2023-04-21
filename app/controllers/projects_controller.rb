@@ -1,5 +1,5 @@
 class ProjectsController < ApplicationController
-
+  before_action :authenticate_user
   before_action :project, only: [:show, :update, :destroy]
   def index
     @projects = Project.all 
@@ -8,6 +8,7 @@ class ProjectsController < ApplicationController
 
   def create
     @project = Project.create(
+      user_id: current_user.id,
       working_title: params[:working_title],
       status: params[:status],
     )
@@ -20,6 +21,7 @@ class ProjectsController < ApplicationController
 
   def update
     @project.update(
+      user_id: current_user.id,
       working_title: params[:working_title] || @project.working_title,
       status: params[:status] || @project.status,
     )

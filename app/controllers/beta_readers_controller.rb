@@ -1,4 +1,5 @@
 class BetaReadersController < ApplicationController
+  before_action :authenticate_user
   before_action :beta_reader, only: [:show, :update, :destroy]
   def index
     @beta_readers = BetaReader.all 
@@ -7,7 +8,7 @@ class BetaReadersController < ApplicationController
 
   def create
     @beta_reader = BetaReader.create(
-      user_id: params[:user_id],
+      user_id: current_user.id,
       first_name: params[:first_name],
       last_name: params[:last_name],
       email: params[:email],
