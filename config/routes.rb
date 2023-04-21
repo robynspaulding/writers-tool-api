@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   resources :notes
 
   resources :beta_readers
+
+  post "/users" => "users#create"
 end
