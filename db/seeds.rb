@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Project.create(working_title: "Kian and the Twin Blades", status: "in progress")
+Project.create(user_id: 1, working_title: "Kian and the Twin Blades", status: "in progress")
 
-Project.create(working_title: "Dawn Hollow Academy, semester 1", status: "in progress")
+Project.create(user_id: 1, working_title: "Dawn Hollow Academy, semester 1", status: "in progress")
 
 Character.create(
   project_id: 1,
