@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   resources :beta_readers
 
   post "/users" => "users#create"
+  post "/sessions" => "sessions#create"
 end
